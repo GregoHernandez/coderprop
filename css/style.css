@@ -315,8 +315,22 @@ margin: 40px auto;
     max-width: 1350px;
     width: 100%;
 }
+/*!/------------------------------FORMULARIO VENTA------------------------------*/
 
+.formventa{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 15px;
+}
 
+.cajaformulario{
+    padding: 10px;
+} 
+
+.imgform{
+    width: 100%;
+    height: auto;
+}
 /*!/------------------------------ASIDE------------------------------*/
 
 
