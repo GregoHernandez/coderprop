@@ -320,7 +320,6 @@ margin: 40px auto;
 .formventa{
     display: grid;
     grid-template-columns: 30% 70%;
-    gap: 15px;
 }
 
 .cajaformulario{
@@ -329,7 +328,9 @@ margin: 40px auto;
 
 .imgform{
     width: 100%;
-    height: auto;
+    height: 100%;
+    background-size: cover;
+    z-index: 0;
 }
 /*!/------------------------------ASIDE------------------------------*/
 
@@ -453,6 +454,15 @@ footer i:hover{
     .banner-container{
         display: none;
     }
+
+    .imgform{
+        display: none;
+    }
+
+    .formventa{
+        grid-template-columns: 100%;
+    }
+
 }
 
 @media screen and (max-width:600px){
