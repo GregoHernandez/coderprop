@@ -1,0 +1,192 @@
+header {
+  background-color: #131515;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+header h1 {
+  width: 40px;
+  height: 85px;
+  display: flex;
+  margin: 10px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li {
+  margin: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.hero {
+  height: 700px;
+  text-align: center;
+  color: white;
+  background-image: url("../img/ciudad.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h2 {
+  font-size: 60px;
+}
+.hero p {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+.search-bar button {
+  background-color: #2b2c28;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.search-bar button:hover {
+  background-color: #474942;
+}
+
+.bienvenida {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7de2d1;
+  margin: 40px auto;
+}
+.bienvenida div {
+  width: 30%;
+  padding: 50px;
+  margin: 15px;
+  border: 1px;
+  background-color: white;
+  border-radius: 5px;
+}
+.bienvenida div h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.bienvenida div p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #595959;
+}
+.bienvenida div a {
+  background-color: #2b2c28;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #131515;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.bienvenida img {
+  width: 742px;
+  height: 360px;
+  margin: 30px;
+  border-radius: 5px;
+}
+
+.emprendimiento {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: #7DE2D1;
+  margin: 40px auto;
+}
+.emprendimiento div {
+  width: 30%;
+  padding: 50px;
+  margin: 15px;
+  border: 1px;
+  background-color: white;
+  border-radius: 5px;
+}
+.emprendimiento div h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.emprendimiento div p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #595959;
+}
+.emprendimiento div a {
+  background-color: #2b2c28;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #131515;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.emprendimiento img {
+  width: 742px;
+  height: 360px;
+  margin: 30px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.hero {
+  height: 700px;
+  text-align: center;
+  color: white;
+  background-image: url("../img/ciudad.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h2 {
+  font-size: 60px;
+}
+
+.hero p {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

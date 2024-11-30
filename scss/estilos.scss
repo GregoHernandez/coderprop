@@ -1,0 +1,36 @@
+
+@import "./base/funcionalidades";
+@import "./base/generales";
+@import "./components/header";
+@import "./components/index";
+@import "./components/comprar";
+@import "./components/vender";
+@import "./components/alquilar";
+@import "./components/contacto";
+@import "./components/footer";
+@import "./base/queries";
+
+.hero{
+    height: 700px;
+    text-align: center;
+    color: white;
+    background-image: url("../img/ciudad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2{
+    font-size: 60px;
+}
+
+.hero p{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
