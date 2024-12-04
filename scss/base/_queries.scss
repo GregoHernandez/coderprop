@@ -1,0 +1,90 @@
+@media screen and (max-width:1200px) {
+    .permisos{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1070px) {
+    header{
+        flex-direction: column;
+    }
+
+    header h1{
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+    }
+
+    .bienvenida{
+        flex-direction: column;
+    }
+
+    .bienvenida div{
+        width: 90%;
+    }
+
+    .bienvenida img{
+        display: none;
+    }
+
+    .emprendimiento{
+        flex-direction: column;
+    }
+
+    .emprendimiento div{
+        width: 90%;
+    }
+
+    .emprendimiento img{
+        display: none;
+    }
+
+    .banner-container{
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width:900px){
+    .banner-container{
+        display: none;
+    }
+
+    .imgform{
+        display: none;
+    }
+
+    .formventa{
+        grid-template-columns: 100%;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    footer{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (max-width:500px){
+    header nav ul li a{
+        font-size: 15px;
+    }
+
+    header h1{
+        padding: 60px;
+    }
+
+    .hero h2{
+        font-size: 40px;
+    }
+
+    .hero p{
+        font-size: 15px;
+    }
+
+    footer{
+        grid-template-columns: 100%;
+    }
+
+}

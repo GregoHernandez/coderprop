@@ -237,30 +237,3 @@ aside{
     color: black;
 }
 
-/*!/--------------------------FOOTER--------------------------------*/
-
-footer{
-    background-color: #131515 ;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    gap: 2px;
-    align-items: center;
-    h2{
-        width: 20px;
-        height: 60px;
-        display: flex;
-        margin: 10px;   
-    }
-    div{
-        display: flex;
-        justify-content: space-evenly;
-        i{
-            font-size: 20px;
-            color: white;
-            &:hover{
-                color: #7de2d1;
-            }
-        }
-    }
-}
