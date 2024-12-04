@@ -1,3 +1,6 @@
+/*!/--------------------------MAIN--------------------------------*/
+
+
 .hero{
         height: 700px;
         text-align: center;
@@ -20,6 +23,8 @@
         margin-bottom: 20px;
     }
 }
+
+/*!-----------------barra de búsqueda-----------------*/
 
 .search-bar{
     display: flex;
@@ -49,6 +54,9 @@
         }
     }
 }
+
+/*!-------------- CAJA DE VER PROPIEDADES----------------*/
+
 
 .bienvenida{
     margin: auto;
@@ -93,6 +101,9 @@
         }
 }
 
+/*! ------------------------------CAJITAS DE EMPRENDIMIENTO--------------------------*/
+
+
 .emprendimiento{
     margin: auto;
     display: flex;
@@ -136,5 +147,120 @@ div{
         border-radius: 5px;
         object-fit: cover;
     
+    }
+}
+
+/*! ------------------------------CAJITAS DE PRODUCTOS--------------------------*/
+
+
+.productos-contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 30px;
+    div{
+        border: 1px solid grey;  
+        border-radius: 5px;
+        width: 400px;
+        height: 450px;
+        text-align: center;
+        margin: 15px;
+        padding: 30px;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        box-shadow: 2px 2px 5px #131515;
+        img{
+            width: 240px;
+            height: 150px;
+            display: flex;
+            justify-items: center;
+            margin: auto;
+        }
+        h3{
+            text-align: center;
+            font-size: 20px;
+            margin: 5px;
+            font-weight: 700;
+        }
+        a{
+            background-color: #2b2c28;
+            color: white;
+            padding: 10px 20px;
+            border: 1px solid #131515; 
+            cursor: pointer; 
+            font-size: 16px;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            margin-top: auto;
+            border-radius: 5px;
+        }
+    }
+}
+
+
+/*!/------------------------------ASIDE------------------------------*/
+
+
+aside{
+    padding: 20px;
+    background-color: #7de2d1; 
+}
+
+.banner-container{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    gap: 10px; 
+    img{
+        max-width: 30%; 
+        border-radius: 5px; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+        cursor: pointer; 
+    }
+}
+
+.permisos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin: 30px;
+}
+
+.derechos{
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+
+/*!/--------------------------FOOTER--------------------------------*/
+
+footer{
+    background-color: #131515 ;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 2px;
+    align-items: center;
+    h2{
+        width: 20px;
+        height: 60px;
+        display: flex;
+        margin: 10px;   
+    }
+    div{
+        display: flex;
+        justify-content: space-evenly;
+        i{
+            font-size: 20px;
+            color: white;
+            &:hover{
+                color: #7de2d1;
+            }
+        }
     }
 }

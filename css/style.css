@@ -223,15 +223,6 @@ margin: 40px auto;
 
 /*! CAJITAS DE PRODUCTOS*/
 
-
-.productos h2{
-    background-color: #2b2c28;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-    border-radius: 5px;
-}
 .productos .productos-contenedor div{
     border: 1px solid grey;  
     border-radius: 5px;
